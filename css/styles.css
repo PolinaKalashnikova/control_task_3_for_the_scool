@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+    background-color: #020303;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo a img {
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.logo-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    display: inline-block;
+    width: 60px;
+    vertical-align: middle;
+}
+
+.menu {
+    margin-left: 281px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px;
+    font-size: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    padding-bottom: 6px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid rgb(255, 175, 24);
+
+}
+
+.main {
+    padding: 133px 0 80px 0;
+}
+
+.main-info {
+    display: inline-block;
+    /*vertical-align: middle;*/
+    max-width: 564px;
+    margin-right: 22px;
+}
+
+.main-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+}
+
+.main-title span {
+    color: #ffaf18;
+}
+
+.main-info-texts {
+    margin-top: 74px;
+}
+
+.main-info-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.main-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.main-info-text.two .main-icon {
+    margin-left: 100px;
+}
+
+.main-image {
+    display: inline-block;
+    /*vertical-align: middle;*/
+}
+
+.main .container {
+    font-size: 0;
+}
+
+.button.main-button {
+    background-color: #ffaf18;
+    border-radius: 30px;
+    border: 0;
+    padding: 22px;
+    color: #020303;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    width: 224px;
+    margin-top: 92px;
+    line-height: 1;
+}
+
+.button.main-button:hover {
+    box-shadow: 0 15px 25px rgba(255, 175, 24, 0.4);
+}
+
+.shop {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+}
+
+.shop-items {
+    margin-top: 48px;
+    margin-left: -12px;
+    margin-right: -12px;
+    font-size: 0;
+}
+
+.shop-item {
+    width: 282px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin: 12px;
+}
+
+.shop-item:hover {
+    box-shadow: 0 0 15px rgb(225, 225, 225);
+}
+
+.shop-item:first-child {
+    width: 272px;
+    border: 5px solid #ed9b00;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.shop-item:last-child{
+    width: 272px;
+    border: 5px solid #ed9b00;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+.shop-item img {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.shop-name-sushi {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+}
+
+.shop-item-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    width: 242px;
+    height: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.button-shop-button {
+    background-color: #ffaf18;
+    border-radius: 25px;
+    border: 0;
+    padding: 17px;
+    color: #020303;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 242px;
+}
+
+.button-shop-button:hover {
+    box-shadow: 0 15px 25px rgba(255, 175, 24, 0.4);
+}
+
+.sheff {
+    padding: 120px 0 67px 0;
+    font-size: 0;
+}
+
+.sheff-info {
+    display: inline-block;
+    vertical-align: bottom;
+    max-width: 385px;
+    margin-right: 24px;
+}
+
+.sheff-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.sheff-info-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-bottom: 100px;
+    max-width: 384px;
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.sheff-action a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.sheff-button {
+    background-color: white;
+    border: 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.sheff-button:not(:last-child) {
+    margin-right: 40px;
+}
+
+.sheff-button img {
+    display: block;
+    margin: 14px auto;
+}
+
+.sheff-button:hover{
+    box-shadow: 0 0 15px rgb(225, 225, 225);
+}
+
+.sheff-button:active {
+    background-color: #ffaf18;
+}
+
+.sheff-button:visited {
+    background-color: #bebebe;
+}
+
+.sheff-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 18px;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 30px 0 30px 0;
+}
+
+.rules {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    margin-left: 390px;
+}
